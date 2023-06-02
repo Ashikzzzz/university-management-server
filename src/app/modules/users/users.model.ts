@@ -14,11 +14,9 @@ const userSchema = new Schema<IUser>(
     },
     role: {
       type: String,
-      unique: true,
     },
     password: {
       type: String,
-      unique: true,
     },
   },
   {
